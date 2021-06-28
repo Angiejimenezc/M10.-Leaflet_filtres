@@ -1,0 +1,43 @@
+body,
+html {
+  margin: 5px;
+  padding: 5px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: #fcd6a4;
+  font-size: 19px;
+}
+
+h3 {
+  font-weight: 600;
+  line-height: 1em;
+}
+
+#mapid {
+  height: 100%;
+  border-top: 4px solid #ebe3c4;
+  border-bottom: 4px solid #f0f2d3;
+}
+
+#kind_food_selector {
+  background-color: #e4dedd;
+  font-family: "Courier New", Courier, monospace;
+  color: #1b1b1a;
+  font-size: 14px;
+}
+.leaflet-popup-content p {
+  margin-top: 0px;
+  margin-bottom: 0.25em;
+}
+.leaflet-fade-anim .leaflet-map-pane .leaflet-popup {
+  width: 350px;
+ 
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-content {
+  padding: 10px !important;
+  margin: 0 !important;
+}
+.leaflet-popup-content-wrapper, .leaflet-popup-tip{
+	background-color:#a3d1f59a;
+}
